@@ -20,7 +20,7 @@ A block diagram of the board architecture is pictured below. Each block in the d
 ![Humidity Controller Block Diagram](https://github.com/user-attachments/assets/2abd4bbb-881f-4515-8b6b-d2ff0941547a)
 
 ### USB-C Connector
-The board takes in power from the USB-C connector and runs it to both a 12V boost converter and 3.3V linear regulator.
+The board takes in power from the USB-C connector and runs it to both a 12V boost converter and 3.3V linear regulator. The CC pins are used by the upstream device to communicate how much power can be supplied.
 ### 12V Boost Converter
 The 12V boost converter receives 5V (4.75-5.25V) from the USB-C connector & converts it into 12V for the fan. The boost converter is only active when the enable signal is triggered by the ESP32.
 ### 3.3V Linear Regulator
@@ -28,7 +28,7 @@ The 3.3V linear regulator receives 5V from the USB-C connector and regulates it 
 ### Humidity Sensor
 The humidity sensor receives 3.3V from the linear regulator & is an I2C slave device on the I2C bus connected to the ESP32.
 ### ESP32
-The ESP32 runs ESPHome firmware with a driver to perform fan control with speed feedback & to receive humidity sensor data. Using the custom humidity sensor & fan drivers, the firmware for the ESP32 can be generated using a standard ESPHome yaml file. The ESP32 interfaces with an ESPHome server allowing for easy configuration of control parameters.
+The ESP32 runs ESPHome firmware with a driver to perform fan control with speed feedback & to receive humidity sensor data. Using the custom humidity sensor & fan drivers, the firmware for the ESP32 can be generated using a standard ESPHome yaml file. The ESP32 interfaces with an ESPHome server allowing for easy configuration of control parameters. Upon power on, the ESP32 reads the voltage of the CC pins to ensure adequate power is available from the USB supply prior to enabling the boost converter.
 ### Fan Connector
 The fan connector is a standard 4-Pin computer fan connector which can be used with any 12V computer fan which has a maximum current draw of 200mA or less.
 ## TODO
