@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U4";"SOT95P280X145-5N";1;"LM27313XMF_NOPB";;;
+2;"U3";"SON50P250X250X80-9N-D";1;"HDC3020DEFR";;;
+3;"R12,R5";"R_0402_1005Metric";2;"13.3K";;;
+4;"C8";"C_0402_1005Metric";1;"220pF";;;
+5;"R11,R7,R6,R8,R1";"C_0603_1608Metric";5;"1R";;;
+6;"C7";"C_0603_1608Metric";1;"22uF";;;
+7;"J3";"USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal";1;"USB_C_Receptacle_USB2.0_14P";;;
+8;"U2";"TO-252-3_TabPin2";1;"AMS1117CD-3.3";;;
+9;"R10,R9";"R_0402_1005Metric";2;"5.1K";;;
+10;"R4,R3";"R_0402_1005Metric";2;"4.7K";;;
+11;"D1";"D_SMA";1;"SS14";;;
+12;"C6,C1,C2";"C_1206_3216Metric";3;"4.7uF";;;
+13;"J1";"470531000";1;"Conn_01x04_Pin";;;
+14;"L2,L1";"L_Sunlord_SWPA3015S";2;"10uH";;;
+15;"R2";"R_0402_1005Metric";1;"117K";;;
+16;"C5,C4,C3";"C_0603_1608Metric";3;"470nF";;;
+17;"U1";"ESP32-S2-MINI-1";1;"ESP32-S3-MINI-1";;;

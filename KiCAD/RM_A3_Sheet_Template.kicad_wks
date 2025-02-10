@@ -1,0 +1,512 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start -0.57 -0.57 ltcorner)
+		(end -0.951 -0.7478)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 1.5 ltcorner)
+		(end 50 -0.5 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 0.5 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 1.2002 lbcorner)
+		(end 50 -0.7998 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 0.2002 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start -0.6 50 ltcorner)
+		(end 1.4 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 0.4 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start -1 50 rtcorner)
+		(end 1 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(rect
+		(name "")
+		(start 126.78 1.2502)
+		(end 1.05 36.8102)
+	)
+	(line
+		(name "")
+		(start 182.66 6.3302)
+		(end 126.78 6.3302)
+		(option page1only)
+		(repeat 7)
+		(incry 5.08)
+	)
+	(line
+		(name "")
+		(start 170.279 36.8102)
+		(end 170.279 1.2502)
+		(option page1only)
+	)
+	(tbtext "Drawn By.\n"
+		(name "")
+		(pos 176.55 29.2502)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Chk. By."
+		(name "")
+		(pos 177.05 23.9502)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Apv. By.\n"
+		(name "")
+		(pos 177.05 19.0502)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(line
+		(name "")
+		(start 144.05 36.8102)
+		(end 144.05 1.2502)
+		(option page1only)
+	)
+	(tbtext "Signature\n"
+		(name "")
+		(pos 158.05 34.2502)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Date\n\n"
+		(name "")
+		(pos 135.05 33.1502)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(line
+		(name "")
+		(start 126.78 36.8102)
+		(end 126.78 1.2502)
+	)
+	(line
+		(name "")
+		(start 126.78 11.4102)
+		(end 1.05 11.4102)
+		(repeat 2)
+		(incry 15.24)
+	)
+	(line
+		(name "")
+		(start 76.299 36.8102)
+		(end 76.299 1.2502)
+	)
+	(tbtext "Document Number\n"
+		(name "")
+		(pos 125.55 34.7502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Document Type\n"
+		(name "")
+		(pos 125.55 24.7502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Responsible dept."
+		(name "")
+		(pos 125.55 9.2502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Title"
+		(name "")
+		(pos 75.55 24.7502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Rev."
+		(name "")
+		(pos 75.55 9.2502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(line
+		(name "")
+		(start 68.05 11.4102)
+		(end 68.05 1.2502)
+	)
+	(line
+		(name "")
+		(start 43.279 11.4102)
+		(end 43.279 1.2502)
+	)
+	(line
+		(name "")
+		(start 19.05 11.4102)
+		(end 19.05 1.2502)
+	)
+	(tbtext "Document Status\n"
+		(name "")
+		(pos 66.55 9.2502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Date of Issue\n"
+		(name "")
+		(pos 42.05 9.2502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "Sheet"
+		(name "")
+		(pos 18.05 9.2502)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "RM DESIGNS"
+		(name "")
+		(pos 49.0152 31.6502)
+		(font
+			(face "Century Gothic")
+			(size 2.6 2.7) bold
+			(color 0 0 0 1)
+		)
+	)
+	(line
+		(name "")
+		(start 182.66 36.8102)
+		(end 182.66 1.2502)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 1.125 265.5002)
+		(end 178.125 265.5002)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 178.125 265.5002)
+		(end 178.125 275.5002)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 178.125 270.5002)
+		(end 1.125 270.5002)
+		(option page1only)
+	)
+	(tbtext "Revision Table"
+		(name "")
+		(pos 85.625 272.5002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(line
+		(name "")
+		(start 25.125 270.5022)
+		(end 25.125 265.5022)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 41.125 270.5022)
+		(end 41.125 265.5022)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 65.125 270.5022)
+		(end 65.125 265.5022)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 167.125 270.5002)
+		(end 167.125 265.5002)
+		(option page1only)
+	)
+	(tbtext "Rev."
+		(name "")
+		(pos 172.125 268.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Description"
+		(name "")
+		(pos 116.125 268.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Signed"
+		(name "")
+		(pos 13.125 268.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "ECO"
+		(name "")
+		(pos 33.125 268.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Date"
+		(name "")
+		(pos 53.125 268.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic") bold
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 72.039 18.2522)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "${#}  of  ${##}"
+		(name "")
+		(pos 9.55 5.2522)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${REVISION}\n"
+		(name "")
+		(pos 72.039 5.2522)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT5}"
+		(name "")
+		(pos 158.05 29.2522)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "Engineering"
+		(name "")
+		(pos 122.05 5.2522)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "PCB Schematic"
+		(name "")
+		(pos 122.05 18.2522)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+	)
+	(line
+		(name "")
+		(start 178.125 260.5022)
+		(end 178.125 270.5022)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 25.125 265.5042)
+		(end 25.125 260.5042)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 41.125 265.5042)
+		(end 41.125 260.5042)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 65.125 265.5042)
+		(end 65.125 260.5042)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 167.125 265.5022)
+		(end 167.125 260.5022)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 1.114 260.5022)
+		(end 178.114 260.5022)
+		(option page1only)
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 172.125 263.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 116.125 263.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 53.114 263.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 33.114 263.0002)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT6}"
+		(name "")
+		(pos 135.05 29.2522)
+		(option page1only)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+		(justify center)
+	)
+	(tbtext "${COMMENT7}"
+		(name "")
+		(pos 122.05 30.7502)
+		(font
+			(face "Century Gothic")
+			(color 0 0 0 1)
+		)
+	)
+)

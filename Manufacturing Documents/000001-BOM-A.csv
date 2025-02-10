@@ -1,0 +1,18 @@
+Reference	Value	Qty	MF	MPN	Description	JLCPCB Part #
+C1,C2,C6	4.7uF	3	FH (Guangdong Fenghua Advanced Tech)	1206B475K500NT	MLCC 4.7uF X7R 50V 1206	C29823
+C3,C4,C5	470nF	3	Samsung Electro-Mechanics	CL10B474KA8NNNC	MLCC 470nF 25V X7R 0603	C1623
+C7	22uF	1	Samsung Electro-Mechanics	CL10A226MQ8NRNC	MLCC 4.7uF X5R 6.3V 0603	C59461
+C8	220pF	1	FH (Guangdong Fenghua Advanced Tech)	0402B221K500NT	MLCC 220pF X7R 50V 0402	C1530
+D1	SS14	1	SS14	 MDD(Microdiode Semiconductor)	40V 1A Schottky Diode, SMA	C2480
+J1	Conn_01x04_Pin	1	Molex	47053-1000	KK 254 Vertical Header, with Friction Lock, 4 Circuits	C240840
+J3	918-418K2023S40001	1	Jing	918-418K2023S40001	USB 2.0-only 16P Type-C Receptacle connector	C167321
+L1,L2	10uH	2	Sunlord	SWPA3015S100MT	Inductor 10uH 1.2A Isat	C45403
+R1,R6,R7,R8,R11	1R	5	UNI-ROYAL(Uniroyal Elec)	0603WAF100KT5E	Resistor 1R 0603	C22936
+R2	115K	1	UNI-ROYAL(Uniroyal Elec)	0402WGF1153TCE	Resistor 115K 0402	C25747
+R3,R4	4.7K	2	UNI-ROYAL(Uniroyal Elec)	0402WGF4701TCE	Resistor 4.7K 0402	C25900
+R5,R12	13.3K	2	UNI-ROYAL(Uniroyal Elec)	0402WGF1332TCE	Resistor 13.3K 0402	C122547
+R9,R10	5.1K	2	UNI-ROYAL(Uniroyal Elec)	0402WGF5101TCE	Resistor 5.1K 0402	C25905
+U1	ESP32-S3-MINI-1	1	Espressif Systems	ESP32-S3-MINI-1-N8	RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna	C2913206
+U3	HDC3022DEJR	1	Texas Instruments	HDC3022DEJR	Board Mount Humidity Sensors 0.5% RH digital humidity sensor, 0.19% long-term drift, 400 nA, 4-sec response time, NIST traceable	C7472806
+U4	LM27313XMF_NOPB	1	Texas Instruments	LM27313XMF/NOPB	1.6 MHz Boost Converter With 30V Internal FET Switch in SOT-23	C32355
+U5	AMS1117-3.3	1	Advanced Monolithic Systems	AMS1117-3.3	1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223	C6186
