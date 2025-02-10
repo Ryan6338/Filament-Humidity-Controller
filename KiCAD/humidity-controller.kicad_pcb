@@ -2699,7 +2699,7 @@
 		(descr "5-Pin SOT-23_")
 		(tags "Integrated Circuit")
 		(property "Reference" "U4"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "afa55829-99b6-4ed8-9846-ce07a70b5ab2")
@@ -2711,7 +2711,7 @@
 			)
 		)
 		(property "Value" "LM27313XMF_NOPB"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "793884c0-6182-4fd8-82a4-9a0ca3786d6b")
@@ -2723,7 +2723,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b80958d1-04bc-402c-969e-e94e6a777907")
@@ -2735,7 +2735,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/lm27313"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b59f75b4-944f-4106-85ea-26606e0643ce")
@@ -2747,7 +2747,7 @@
 			)
 		)
 		(property "Description" "1.6 MHz Boost Converter With 30V Internal FET Switch in SOT-23"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19c061c0-693b-4249-8093-9cc1b5ceed42")
@@ -2955,13 +2955,13 @@
 			(uuid "978b41e1-46ec-4989-8e03-5719eeb2f851")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "a3f96c5b-f58b-4f44-bdce-8615471d8204")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.8 0.8)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3010,7 +3010,7 @@
 			(pintype "input")
 			(uuid "fb62561d-1951-481a-ad93-4baa583d7e29")
 		)
-		(model "LM27313XMF_NOPB.stp"
+		(model "${KIPRJMOD}/3D Models/LM27313XMF_NOPB.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3492,8 +3492,8 @@
 			(uuid "b5325980-c876-4e49-b83f-bdf9198ed1d1")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3578,7 +3578,7 @@
 			(pintype "passive")
 			(uuid "a892cdf1-96fe-4ee4-9764-2242fc23d371")
 		)
-		(model "HDC3020DEFR.stp"
+		(model "${KIPRJMOD}/3D Models/HDC3020DEFR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5932,8 +5932,8 @@
 			(uuid "a544bb35-fa1c-4af9-98b4-23735583b951")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -7309,7 +7309,7 @@
 			(pintype "passive")
 			(uuid "0930e662-5a25-4399-bed0-9be4079f48dc")
 		)
-		(model "47053-1000.stp"
+		(model "${KIPRJMOD}/3D Models/47053-1000.stp"
 			(offset
 				(xyz -3.779999915 0.05999999776 2.259999957)
 			)
@@ -9037,7 +9037,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/ESP32-S3-MINI-1-N8.stp"
+		(model "${KIPRJMOD}/3D Models/ESP32-S3-MINI-1-N8.stp"
 			(offset
 				(xyz 0 -2.5 0)
 			)
