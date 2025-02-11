@@ -34,6 +34,7 @@ The fan connector is a standard 4-Pin computer fan connector which can be used w
 ## TODO
 1. Write custom ESPHome driver.
 2. Create example yaml for ESPHome using custom driver.
+3. Design PCB bracket, fan housing & dessicant holder.
 ## Future Improvements
 To make this product consumer-ready, the following improvements should be considered:
 1. Add fuse to 5V input.
