@@ -1,8 +1,9 @@
 # ESPHome Filament Humidity Controller (P/N 000001)
 ## Overview
 This project is for an ESPHome-based 3D printer filament box. The purpose of the PCB is to automatically control a fan which will drive air through dessicant in a 3D printer filament drybox. Using ESPHome allows for easy configuration & automation customization through ESPHome and Home Assistant. It also allows for notifications to be configured when the dessicant has been depleted. The PCB is powered from a USB-C port requiring a 5V, 1A capable USB source. The USB port can be used for flashing the onboard ESP, although after ESPHome firmware has been installed, over the air updates can be used instead.
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fe235306-0792-43b7-bbaf-96aedf9506f5" />
+  <img src="https://github.com/user-attachments/assets/aedb1384-51c3-4616-a414-59cb95a8f808" />
 </p>
 
 ## File Layout
