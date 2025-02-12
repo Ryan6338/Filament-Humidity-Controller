@@ -1,0 +1,75 @@
+esphome:
+  name: filament-humidity-controller
+  friendly_name: Filament Humidity Controller
+
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "Key"
+
+ota:
+  - platform: esphome
+    password: "Password"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Filament-Humidity-Controller"
+    password: "Password"
+
+captive_portal:
+    
+sensor:
+  - platform: pulse_counter
+    pin: GPIO42
+    name: "RPM"
+    update_interval: 5s
+    unit_of_measurement: RPM
+    filters:
+      - multiply: 0.5
+
+output:
+  - platform: ledc
+    pin: GPIO45
+    id: fan_pwm
+
+  - platform: gpio
+    pin: GPIO35
+    id: fan_enable
+
+fan:
+  - platform: template
+    speed_count: 100
+    id: fan_control
+    name: Fan
+
+    on_speed_set:
+    - logger.log:
+        format: "Fan Speed was changed to %d!"
+        args: [ x ]
+    - output.set_level:
+        id: fan_pwm
+        # Set PWM duty cycle of fan_pwm pin.
+        level: !lambda |-
+          return (float) id(fan_control).speed / 100;
+    on_turn_on:
+    - output.turn_on: fan_pwm # Enable PWM
+    - output.turn_on: fan_enable # Turn boost converter on.
+    - logger.log: "Fan Turned On!"
+    on_turn_off:
+    - output.turn_off: fan_pwm # Disable PWM
+    - output.turn_off: fan_enable # Turn boost converter off.
+    - logger.log: "Fan Turned Off!"
+    
+    #TODO: Implement custom I2C component for humidity sensor.
